@@ -31,12 +31,12 @@ export function SolutionSection() {
             </p>
             <div className="bg-brand-beige rounded-xl overflow-hidden">
               <div className="relative w-full max-w-md mx-auto">
-                <div className="relative w-full h-64">
+                <div className="relative w-full aspect-video">
                   <Image
                     src="/images/solution.jpg"
                     alt="Resultado do Método VEP"
                     fill
-                    className="object-cover rounded-xl"
+                    className="object-contain rounded-xl"
                   />
                 </div>
               </div>
