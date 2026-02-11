@@ -1,5 +1,6 @@
-import { GoogleAnalytics } from '@next/third-parties/google'
 import { Inter, Playfair_Display } from "next/font/google"
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { FacebookPixel } from '@next/third-parties/google'
 
 const inter = Inter({
   subsets: ["latin"],
@@ -14,6 +15,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react'
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +43,7 @@ export default function RootLayout({
   {children}
   <Analytics />
   <GoogleAnalytics gaId="G-XTS8544KDC" />
+  <FacebookPixel pixelId="919534217290953" />
 </body>
 
     </html>
