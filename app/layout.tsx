@@ -1,6 +1,5 @@
 import { Inter, Playfair_Display } from "next/font/google"
 import { GoogleAnalytics } from '@next/third-parties/google'
-import { FacebookPixel } from '@next/third-parties/google'
 
 const inter = Inter({
   subsets: ["latin"],
@@ -43,7 +42,6 @@ export default function RootLayout({
   {children}
   <Analytics />
   <GoogleAnalytics gaId="G-XTS8544KDC" />
-  <FacebookPixel pixelId="919534217290953" />
 </body>
 
     </html>
