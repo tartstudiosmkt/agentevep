@@ -116,9 +116,7 @@ export function OfferSection() {
               QUERO MEU AGENTE VEP AGORA
             </button>
 
-            <p className="mt-4 text-sm font-sans text-brand-brown/60">
-              (Depois a gente conecta esse botão ao link do checkout.)
-            </p>
+
           </div>
         </div>
       </div>
