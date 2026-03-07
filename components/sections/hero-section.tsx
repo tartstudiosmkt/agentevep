@@ -29,23 +29,24 @@ export function HeroSection() {
             </button>
           </div>
 
-          {/* Image */}
-          <div className="flex-1 order-1 lg:order-2 w-full">
-            <div className="relative w-64 h-80 sm:w-72 sm:h-96 md:w-80 md:h-[26rem] lg:w-full lg:h-auto lg:max-w-lg mx-auto">
-              <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/images/hero.jpg"
-                  alt="Thayná - Agente VEP"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
+          {/* VSL */}
+<div className="flex-1 order-1 lg:order-2 w-full">
+  <div className="relative w-full max-w-lg mx-auto">
+    <div className="aspect-[9/16] relative rounded-2xl overflow-hidden shadow-2xl">
+      <iframe
+        src="https://www.youtube.com/embed/fY1nhBskQUg?rel=0&modestbranding=1"
+        title="Agente VEP - VSL"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className="absolute inset-0 w-full h-full"
+      />
+    </div>
+    {/* Decorative elements */}
+    <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brand-terracotta/20 rounded-full -z-10" />
+    <div className="absolute -top-4 -left-4 w-16 h-16 bg-brand-terracotta/10 rounded-full -z-10" />
+  </div>
+</div>
               
-              {/* Decorative elements */}
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-brand-terracotta/20 rounded-full -z-10" />
-              <div className="absolute -top-4 -left-4 w-16 h-16 bg-brand-terracotta/10 rounded-full -z-10" />
-            </div>
           </div>
         </div>
       </div>
